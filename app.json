@@ -12,27 +12,27 @@
   "env": {
     "SESSION_ID": {
       "description": "Enter your CypherX session id here; must start with XPLOADER-BOT:~",
-      "value": "",
+      "value": "XPLOADER-BOT:~fiYFUQIb#erqrJQWPLzqwPHk0DLZxbeFZZwolnl9eVAw-B3H8JKQ",
       "required": false
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "CypherX",
+      "value": "𝐉𝐄𝐋𝐈𝐎 𝐒𝐓𝐀𝐑𝐑 𝐌𝐃",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here",
-      "value": "254754783972",
+      "value": "256766238915",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "Tylor",
+      "value": "𝐉𝐄𝐋𝐈𝐎 𝐒𝐓𝐀𝐑𝐑 𝐃𝐄𝐕",
       "required": true
     },
     "STICKER_PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "Cypher",
+      "value": "𝐉𝐄𝐋𝐈𝐎 𝐒𝐓𝐀𝐑𝐑 𝐃𝐄𝐕",
       "required": false
     },
     "STICKER_AUTHOR_NAME": {
@@ -52,7 +52,7 @@
     },
     "PREFIX": {
       "description": "Enter your desired prefix here",
-      "value": ".",
+      "value": "/",
       "required": true
     },
     "MODE": {
@@ -77,7 +77,7 @@
     },
     "AUTO_STATUS_REACT": {
       "description": "Set true to enable and false to disable auto status react",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "STATUS_EMOJI": {
@@ -112,7 +112,7 @@
     },
     "AUTO_READ": {
       "description": "Set true to enable automatic reading of messages",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "MENU_STYLE": {
