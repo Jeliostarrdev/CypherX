@@ -15,34 +15,34 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~fiYFUQIb#erqrJQWPLzqwPHk0DLZxbeFZZwolnl9eVAw-B3H8JKQ' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || '𝐉𝐄𝐋𝐈𝐎 𝐒𝐓𝐀𝐑𝐑 𝐌𝐃' 
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '256766238915' 
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '254712345678'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['256766238925', '256745538596'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || '𝐉𝐄𝐋𝐈𝐎 𝐒𝐓𝐀𝐑𝐑 𝐃𝐄𝐕' 
 //Type your name here
 
 //=================================================//
 global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh=YzljYTk1ODg3Zg=="
 
 //=================================================//
-global.wm = process.env.GL_WM || "©CypherX"
+global.wm = process.env.GL_WM || "©𝐉𝐄𝐋𝐈𝐎𝐒𝐓𝐀𝐑𝐑𝐃𝐄𝐕"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "𝐉𝐄𝐋𝐈𝐎𝐒𝐓𝐀𝐑𝐑𝐌𝐃" 
 //The sticker pack name
 
 //=================================================//
@@ -50,7 +50,7 @@ global.author = process.env.STICKER_AUTHOR_NAME || "X"
 //The sticker author name
 
 //=================================================//
-global.prefixz = process.env.PREFIX || '.'
+global.prefixz = process.env.PREFIX || '/'
 //Set your desired prefix
 
 //=================================================//
@@ -66,7 +66,7 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 // set true to enable and false to disable auto status view
 
 //=================================================//
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //=================================================//
@@ -98,7 +98,7 @@ global.timezones = process.env.TIMEZONE || "Africa/Nairobi"
 //Don't edit this if you don't know!
 
 //=================================================//
-global.autoread = process.env.AUTO_READ || 'false';
+global.autoread = process.env.AUTO_READ || 'true';
 // Set to 'true' to enable automatic reading of messages
 
 //=================================================//
@@ -114,7 +114,7 @@ global.menustyle = process.env.MENU_STYLE || '2'
 //Replies
 global.mess = { 
   done: '*Done*', 
-  success: '©CypherX', 
+  success: '©𝐉𝐄𝐋𝐈𝐎𝐒𝐓𝐀𝐑𝐑𝐃𝐄𝐕', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
